@@ -1,0 +1,18 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "geometry": {"default": "geometry.trident"},
+
+            "identifier": "minecraft:thrown_trident",
+
+            "textures": {"default": "textures/entity/trident/trident",
+                         "loyalty_rope": "textures/entity/trident/loyalty_rope"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

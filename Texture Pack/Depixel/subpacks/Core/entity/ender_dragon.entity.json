@@ -1,0 +1,19 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "geometry": {"default": "geometry.dragon"},
+
+            "identifier": "minecraft:ender_dragon",
+
+            "textures": {"beam": "textures/entity/endercrystal/endercrystal_beam",
+                         "default": "textures/entity/dragon/dragon",
+                         "exploding": "textures/entity/dragon/dragon_exploding"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

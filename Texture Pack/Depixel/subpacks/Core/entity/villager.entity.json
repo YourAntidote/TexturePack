@@ -1,0 +1,41 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"general": "controller.animation.villager.general"},
+                                      {"move": "controller.animation.villager.move"},
+                                      {"baby": "controller.animation.villager.baby"}],
+
+            "animations": {"general": "animation.villager.general",
+                           "look_at_target": "animation.common.look_at_target",
+                           "move": "animation.villager.move",
+                           "baby_transform": "animation.villager.baby_transform"},
+
+            "geometry": {"default": "geometry.villager.v1.8"},
+
+            "identifier": "minecraft:villager",
+
+            "materials": {"default": "villager"},
+
+            "min_engine_version": "1.8.0",
+
+            "render_controllers": ["controller.render.villager"],
+
+            "scripts": {"scale": "0.9375"},
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 14},
+
+            "textures": {"farmer": "textures/entity/villager/farmer",
+                         "librarian": "textures/entity/villager/librarian",
+                         "priest": "textures/entity/villager/priest",
+                         "smith": "textures/entity/villager/smith",
+                         "butcher": "textures/entity/villager/butcher"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

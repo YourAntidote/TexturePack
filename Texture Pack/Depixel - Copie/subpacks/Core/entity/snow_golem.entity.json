@@ -1,0 +1,29 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"move": "controller.animation.snowgolem.move.v1.8"}],
+
+            "animations": {"move": "animation.snowgolem.move.v1.8",
+                           "look_at_target": "animation.common.look_at_target"},
+
+            "geometry": {"default": "geometry.snowgolem.v1.8"},
+
+            "identifier": "minecraft:snow_golem",
+
+            "materials": {"default": "snow_golem",
+                          "head": "snow_golem_pumpkin"},
+
+            "min_engine_version": "1.8.0",
+
+            "render_controllers": ["controller.render.snowgolem"],
+
+            "textures": {"default": "textures/entity/golem/snow"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

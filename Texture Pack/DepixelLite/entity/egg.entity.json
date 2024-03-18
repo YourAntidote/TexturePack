@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animations": {"flying": "animation.actor.billboard"},
+
+            "geometry": {"default": "geometry.item_sprite"},
+
+            "identifier": "minecraft:egg",
+
+            "materials": {"default": "egg"},
+
+            "render_controllers": ["controller.render.item_sprite"],
+
+            "scripts": {"animate": ["flying"]},
+
+            "textures": {"default": "textures/items/egg/egg"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

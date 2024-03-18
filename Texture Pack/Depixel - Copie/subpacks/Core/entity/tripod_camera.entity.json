@@ -1,0 +1,25 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"base": "controller.animation.tripod_camera.base_pose"}],
+
+            "animations": {"neutral": "animation.tripod_camera.neutral"},
+
+            "geometry": {"default": "geometry.tripod_camera"},
+
+            "identifier": "minecraft:tripod_camera",
+
+            "materials": {"default": "camera"},
+
+            "render_controllers": ["controller.render.tripod_camera"],
+
+            "textures": {"default": "textures/entity/camera/tripod"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

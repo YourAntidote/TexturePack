@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+            
+            "animations": {"move": "animation.shulker_bullet.move"},
+
+            "geometry": {"default": "geometry.shulker_bullet"},
+
+            "identifier": "minecraft:shulker_bullet",
+
+            "materials": {"default": "shulker_bullet"},
+
+            "render_controllers": ["controller.render.shulker_bullet"],
+
+            "scripts": {"animate": ["move"]},
+            
+            "textures": {"default": "textures/entity/shulker/shulker_spark"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

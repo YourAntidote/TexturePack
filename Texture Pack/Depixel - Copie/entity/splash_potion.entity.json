@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animations": {"flying": "animation.actor.billboard"},
+
+            "geometry": {"default": "geometry.item_sprite"},
+
+            "identifier": "minecraft:splash_potion",
+
+            "materials": {"default": "splash_potion_enchanted"},
+
+            "render_controllers": ["controller.render.splash_potion"],
+
+            "scripts": {"animate": ["flying"]},
+
+            "textures": {"moveSlowdown": "textures/items/potion/splash/moveSlowdown",
+                         "moveSpeed": "textures/items/potion/splash/moveSpeed",
+                         "digSlowdown": "textures/items/potion/splash/digSlowdown",
+                         "digSpeed": "textures/items/potion/splash/digSpeed",
+                         "damageBoost": "textures/items/potion/splash/damageBoost",
+                         "heal": "textures/items/potion/splash/heal",
+                         "harm": "textures/items/potion/splash/harm",
+                         "jump": "textures/items/potion/splash/jump",
+                         "confusion": "textures/items/potion/splash/confusion",
+                         "regeneration": "textures/items/potion/splash/regeneration",
+                         "resistance": "textures/items/potion/splash/resistance",
+                         "fireResistance": "textures/items/potion/splash/fireResistance",
+                         "waterBreathing": "textures/items/potion/splash/waterBreathing",
+                         "invisibility": "textures/items/potion/splash/invisibility",
+                         "blindness": "textures/items/potion/splash/blindness",
+                         "nightVision": "textures/items/potion/splash/nightVision",
+                         "hunger": "textures/items/potion/splash/hunger",
+                         "weakness": "textures/items/potion/splash/weakness",
+                         "poison": "textures/items/potion/splash/poison",
+                         "wither": "textures/items/potion/splash/wither",
+                         "healthBoost": "textures/items/potion/splash/healthBoost",
+                         "absorption": "textures/items/potion/splash/absorption",
+                         "saturation": "textures/items/potion/splash/saturation",
+                         "levitation": "textures/items/potion/splash/levitation",
+                         "turtleMaster": "textures/items/potion/splash/turtleMaster",
+                         "slowFall": "textures/items/potion/splash/slowFall",
+                         "default": "textures/items/potion/splash/splash",
+                         "enchanted": "textures/misc/enchanted_item_glint"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

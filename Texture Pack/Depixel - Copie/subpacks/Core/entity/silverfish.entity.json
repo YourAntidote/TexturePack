@@ -1,0 +1,29 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+            
+            "animation_controllers": [{"move": "controller.animation.silverfish.move"}],
+            
+            "animations": {"move": "animation.silverfish.move"},
+
+            "geometry": {"default": "geometry.silverfish"},
+
+            "identifier": "minecraft:silverfish",
+
+            "materials": {"default": "silverfish",
+                          "body_layer": "silverfish_layers"},
+
+            "render_controllers": ["controller.render.silverfish"],
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 8},
+
+            "textures": {"default": "textures/entity/silverfish/silverfish"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

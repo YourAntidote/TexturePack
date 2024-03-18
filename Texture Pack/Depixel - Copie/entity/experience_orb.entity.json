@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animations": {"face_player": "animation.actor.billboard"},
+
+            "geometry": {"default": "geometry.experience_orb"},
+
+            "identifier": "minecraft:xp_orb",
+
+            "materials": {"default": "experience_orb"},
+
+            "render_controllers": ["controller.render.experience_orb"],
+
+            "scripts": {"animate": ["face_player"],
+                        "pre_animation": ["variable.u = Math.mod(query.texture_frame_index, 4) * 16.0 / 64.0;",
+                                          "variable.v = math.round(query.texture_frame_index / 4) * 16.0 / 64.0;"],
+                        "scale": "0.3"},
+
+            "textures": {"default": "textures/entity/experience_orb/experience_orb"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

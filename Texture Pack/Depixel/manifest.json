@@ -1,0 +1,26 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "586a1f27-b4c0-4181-8d74-d25e52aca0a6",
+        "version": [1, 00, 00],
+        "min_engine_version": [1, 20, 0]
+    },
+
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "9887ae0b-93e8-4250-a977-b7b4e2707cd9",
+            "version": [0, 22, 02]
+        }
+    ],
+
+    "subpacks": [
+        {
+            "folder_name": "BestPack",
+            "memory_tier": 0,
+            "name": "BestPack."
+        }
+    ]
+}

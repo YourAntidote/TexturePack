@@ -1,0 +1,33 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Suck on deez nuts",
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ],
+    "name": "Best-Pack",
+    "uuid": "01287e3e-b408-45cc-94cd-a8faa64236f2",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "metadata": {
+      "authors": [ "Vattic & Faithful Team" ]
+  },
+  "modules": [
+    {
+      "description": "Suck on deez nuts.",
+      "type": "resources",
+      "uuid": "6ff1e12e-6c67-4505-aa6d-d8ba3f46241a",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

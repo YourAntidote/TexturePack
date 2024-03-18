@@ -1,0 +1,41 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animations": {"walk": "animation.ravager.walk",
+                           "look_at_target": "animation.common.look_at_target",
+                           "idle_mouth": "animation.ravager.idle_mouth",
+                           "stunned": "animation.ravager.stunned",
+                           "roaring": "animation.ravager.roaring",
+                           "move": "controller.animation.ravager.move",
+                           "head": "controller.animation.ravager.head_movement",
+                           "biting": "animation.ravager.biting"},
+                           
+            "geometry": {"default": "geometry.ravager"},
+
+            "identifier": "minecraft:ravager",
+
+            "materials": {"default": "ravager"},
+
+            "particle_effects": {"stun_particles": "minecraft:stunned_emitter"},
+
+            "render_controllers": ["controller.render.ravager"],
+
+            "scripts": {"pre_animation": ["variable.roar_length = 1.0;",
+                                          "variable.bite_anim_duration = 0.75f;",
+                                          "variable.bite_neck_length = 10;"],
+                        "animate": ["move",
+                                    "head"]},
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 57},
+
+            "textures": {"default": "textures/entity/illager/ravager"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

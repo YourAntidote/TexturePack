@@ -1,0 +1,26 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+            
+            "animations": {"face_player": "animation.actor.billboard"},
+
+            "geometry": {"default": "geometry.fireball"},
+
+            "identifier": "minecraft:small_fireball",
+
+            "materials": {"default": "fireball"},
+
+            "render_controllers": ["controller.render.fireball"],
+
+            "scripts": {"scale": "0.5",
+                        "animate": ["face_player"]},
+
+            "textures": {"default": "textures/items/materials/ball/fireball"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+            
+            "geometry": {"default": "geometry.bed"},
+
+            "identifier": "minecraft:bed",
+
+            "min_engine_version": "1.8.0",
+
+            "textures": {"default": "textures/entity/bed/white",
+                         "black": "textures/entity/bed/black",
+                         "blue": "textures/entity/bed/blue",
+                         "brown": "textures/entity/bed/brown",
+                         "cyan": "textures/entity/bed/cyan",
+                         "gray": "textures/entity/bed/gray",
+                         "green": "textures/entity/bed/green",
+                         "light_blue": "textures/entity/bed/light_blue",
+                         "lime": "textures/entity/bed/lime",
+                         "magenta": "textures/entity/bed/magenta",
+                         "orange": "textures/entity/bed/orange",
+                         "pink": "textures/entity/bed/pink",
+                         "purple": "textures/entity/bed/purple",
+                         "red": "textures/entity/bed/red",
+                         "silver": "textures/entity/bed/silver",
+                         "white": "textures/entity/bed/white",
+                         "yellow": "textures/entity/bed/yellow"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

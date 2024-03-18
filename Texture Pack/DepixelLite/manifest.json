@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {"description": "Free demo of Depixel Bedrock, complete with §lblocks and items§r.",
+               "name": "Depixel §aLITE§r",
+               "uuid": "859571d0-c83e-11ea-87d0-0242ac130003",
+               "version": [0,17,06],
+               "min_engine_version": [1,14,0]},
+
+    "modules": [{"description": "Free demo of Depixel Bedrock, complete with §lblocks and items. §rGet the full Depixel experience on our §6Patreon",
+                 "type": "resources",
+                 "uuid": "859573ce-c83e-11ea-87d0-0242ac130003",
+                 "version": [0,17,06]}],
+
+    "subpacks": [{"folder_name": "Lite",
+                  "memory_tier": 0,
+                  "name": "§aLite §e(Basic features)§r.                                     Thank you for downloading. Please enjoy :)"},
+
+                 {"folder_name": "Lite",
+                  "memory_tier": 0,
+                  "name": "§bLite+ §e(Custom textures of blocks)§r. §4§lNot available!§r    Upgrade to §6Gold Level§r on §cPatreon§r, to open this feature."},
+
+                 {"folder_name": "Lite",
+                  "memory_tier": 0,
+                  "name": "§2Depixel §e(Full Depixel experience)§r. §4§lNot available!§r      Upgrade to §bDiamond Level§r on §cPatreon§r, to open this feature."}]
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

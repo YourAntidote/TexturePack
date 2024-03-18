@@ -1,0 +1,28 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "geometry": {"default": "geometry.boat"},
+
+            "identifier": "minecraft:boat",
+
+            "min_engine_version": "1.8.0",
+
+            "textures": {"default": "textures/entity/boat/boat_acacia",
+                         "acacia": "textures/entity/boat/boat_acacia",
+                         "birch": "textures/entity/boat/boat_birch",
+                         "darkoak": "textures/entity/boat/boat_darkoak",
+                         "jungle": "textures/entity/boat/boat_jungle",
+                         "oak": "textures/entity/boat/boat_oak",
+                         "cherry": "textures/entity/boat/boat_cherry",
+                         "bamboo": "textures/entity/boat/boat_bamboo",
+                         "mangrove":"textures/entity/boat/boat_mangrove",
+                         "spruce": "textures/entity/boat/boat_spruce"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

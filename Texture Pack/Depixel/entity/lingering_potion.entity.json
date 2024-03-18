@@ -1,0 +1,52 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+            
+            "animations": {"flying": "animation.actor.billboard"},
+
+            "geometry": {"default": "geometry.item_sprite"},
+
+            "identifier": "minecraft:lingering_potion",
+
+            "materials": {"default": "lingering_potion_enchanted"},
+
+            "render_controllers": ["controller.render.lingering_potion"],
+
+            "scripts": {"animate": ["flying"]},
+
+            "textures": {"absorption": "textures/items/potion/lingering/absorption",
+                         "blindness": "textures/items/potion/lingering/blindness",
+                         "confusion": "textures/items/potion/lingering/confusion",
+                         "damageBoost": "textures/items/potion/lingering/damageBoost",
+                         "digSlowdown": "textures/items/potion/lingering/digSlowdown",
+                         "digSpeed": "textures/items/potion/lingering/digSpeed",
+                         "fireResistance": "textures/items/potion/lingering/fireResistance",
+                         "harm": "textures/items/potion/lingering/harm",
+                         "heal": "textures/items/potion/lingering/heal",
+                         "healthBoost": "textures/items/potion/lingering/healthBoost",
+                         "hunger": "textures/items/potion/lingering/hunger",
+                         "invisibility": "textures/items/potion/lingering/invisibility",
+                         "jump": "textures/items/potion/lingering/jump",
+                         "levitation": "textures/items/potion/lingering/levitation",
+                         "moveSlowdown": "textures/items/potion/lingering/moveSlowdown",
+                         "moveSpeed": "textures/items/potion/lingering/moveSpeed",
+                         "nightVision": "textures/items/potion/lingering/nightVision",
+                         "poison": "textures/items/potion/lingering/poison",
+                         "regeneration": "textures/items/potion/lingering/regeneration",
+                         "resistance": "textures/items/potion/lingering/resistance",
+                         "saturation": "textures/items/potion/lingering/saturation",
+                         "slowFall": "textures/items/potion/lingering/slowFall",
+                         "turtleMaster": "textures/items/potion/lingering/turtleMaster",
+                         "waterBreathing": "textures/items/potion/lingering/waterBreathing",
+                         "weakness": "textures/items/potion/lingering/weakness",
+                         "wither": "textures/items/potion/lingering/wither",
+                         "default": "textures/items/potion/lingering/lingering",
+                         "enchanted": "textures/misc/enchanted_item_glint"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

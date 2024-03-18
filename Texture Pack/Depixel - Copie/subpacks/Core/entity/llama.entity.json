@@ -1,0 +1,56 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"move": "controller.animation.llama.move"},
+                                      {"baby": "controller.animation.llama.baby"}],
+
+            "animations": {"setup": "animation.llama.setup",
+                           "walk": "animation.quadruped.walk",
+                           "look_at_target": "animation.common.look_at_target",
+                           "baby_transform": "animation.llama.baby_transform"},
+
+            "geometry": {"default": "geometry.llama.v1.8"},
+
+            "identifier": "minecraft:llama",
+
+            "materials": {"default": "llama"},
+
+            "min_engine_version": "1.8.0",
+
+            "render_controllers": ["controller.render.llama"],
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 38},
+
+            "textures": {"creamy": "textures/entity/llama/llama_creamy",
+                         "white": "textures/entity/llama/llama_white",
+                         "brown": "textures/entity/llama/llama_brown",
+                         "gray": "textures/entity/llama/llama_gray",
+                         
+                         "decor_none": "textures/entity/llama/decor/none",
+                         "decor_white": "textures/entity/llama/decor/white",
+                         "decor_orange": "textures/entity/llama/decor/orange",
+                         "decor_magenta": "textures/entity/llama/decor/magenta",
+                         "decor_light_blue": "textures/entity/llama/decor/light_blue",
+                         "decor_yellow": "textures/entity/llama/decor/yellow",
+                         "decor_lime": "textures/entity/llama/decor/lime",
+                         "decor_pink": "textures/entity/llama/decor/pink",
+                         "decor_gray": "textures/entity/llama/decor/gray",
+                         "decor_silver": "textures/entity/llama/decor/silver",
+                         "decor_cyan": "textures/entity/llama/decor/cyan",
+                         "decor_purple": "textures/entity/llama/decor/purple",
+                         "decor_blue": "textures/entity/llama/decor/blue",
+                         "decor_brown": "textures/entity/llama/decor/brown",
+                         "decor_green": "textures/entity/llama/decor/green",
+                         "decor_red": "textures/entity/llama/decor/red",
+                         "decor_black": "textures/entity/llama/decor/black",
+                         "decor_wandering_trader": "textures/entity/llama/decor/trader"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

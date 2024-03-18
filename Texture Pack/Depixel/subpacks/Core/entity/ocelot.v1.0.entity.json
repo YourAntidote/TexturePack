@@ -1,0 +1,40 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"setup": "controller.animation.ocelot_v1.0.setup"},
+                                      {"move": "controller.animation.ocelot_v1.0.move"},
+                                      {"baby": "controller.animation.ocelot_v1.0.baby"},
+                                      {"look_at_target": "controller.animation.ocelot_v1.0.look_at_target"}],
+
+            "animations": {"baby_transform": "animation.ocelot_v1.0.baby_transform",
+                           "look_at_target": "animation.common.look_at_target",
+                           "setup": "animation.ocelot_v1.0.setup",
+                           "sit": "animation.ocelot_v1.0.sit",
+                           "sneak": "animation.ocelot_v1.0.sneak",
+                           "sprint": "animation.ocelot_v1.0.sprint",
+                           "walk": "animation.ocelot_v1.0.walk"},
+
+            "geometry": {"default": "geometry.ocelot"},
+
+            "identifier": "minecraft:ocelot",
+
+            "materials": {"default": "ocelot"},
+
+            "render_controllers": ["controller.render.ocelot"],
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 16},
+
+            "textures": {"black": "textures/entity/cat/all_black",
+                         "red": "textures/entity/cat/red_tabby",
+                         "siamese": "textures/entity/cat/siamese",
+                         "wild": "textures/entity/cat/ocelot"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

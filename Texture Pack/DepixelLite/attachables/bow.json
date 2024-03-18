@@ -1,0 +1,35 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:attachable": {
+
+        "description": {
+
+            "animations": {"wield": "animation.bow.wield",
+                           "wield_first_person_pull": "animation.bow.wield_first_person_pull"},
+
+            "geometry": {"default": "geometry.bow_standby",
+                         "bow_pulling_0": "geometry.bow_pulling_0",
+                         "bow_pulling_1": "geometry.bow_pulling_1",
+                         "bow_pulling_2": "geometry.bow_pulling_2"},
+
+            "identifier": "minecraft:bow",
+
+            "materials": {"default": "entity_alphatest",
+                          "enchanted": "entity_alphatest_glint"},
+
+            "render_controllers": ["controller.render.bow"],
+
+            "scripts": {"animate": ["wield",
+                                   {"wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"}]},
+
+            "textures": {"default": "textures/items/bow/standby",
+                         "bow_pulling_0": "textures/items/bow/pulling_0",
+                         "bow_pulling_1": "textures/items/bow/pulling_1",
+                         "bow_pulling_2": "textures/items/bow/pulling_2",
+                         "enchanted": "textures/misc/enchanted_item_glint"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

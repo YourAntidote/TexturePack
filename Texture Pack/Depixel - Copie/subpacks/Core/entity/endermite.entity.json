@@ -1,0 +1,28 @@
+{
+    "format_version": "1.8.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animation_controllers": [{"move": "controller.animation.endermite.move"}],
+
+            "animations": {"move": "animation.endermite.move"},
+
+            "geometry": {"default": "geometry.endermite"},
+
+            "identifier": "minecraft:endermite",
+
+            "materials": {"default": "endermite"},
+
+            "render_controllers": ["controller.render.endermite"],
+
+            "spawn_egg": {"texture": "spawn_egg",
+                          "texture_index": 25},
+
+            "textures": {"default": "textures/entity/endermite/endermite"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/

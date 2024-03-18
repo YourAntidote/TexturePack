@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+
+    "minecraft:client_entity": {
+
+        "description": {
+
+            "animations": {"move": "animation.squid.move",
+                           "squid_rotate": "animation.squid.rotate"},
+
+            "geometry": {"default": "geometry.squid"},
+
+            "identifier": "minecraft:glow_squid",
+
+            "materials": {"default": "glow_squid"},
+
+            "render_controllers": ["controller.render.glow_squid"],
+
+            "scripts": {"animate": ["move",
+                                    "squid_rotate"]},
+
+            "spawn_egg": {"base_color": "#0x095656",
+                          "overlay_color": "#0x85f1bc"},
+
+            "textures": {"default": "textures/entity/squid/glow_squid"}}}
+}
+/*********************************************************
+ *           edit by @volyfnap | polyflore.net           *
+ *                  All rights reserved                  *
+ *********************************************************/
