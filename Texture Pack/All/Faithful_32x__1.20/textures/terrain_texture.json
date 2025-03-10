@@ -1,0 +1,16 @@
+{
+    "num_mip_levels": 4,
+    "padding": 8,
+    "resource_pack_name": "Best Pack",
+    "texture_data":{
+
+        "monster_egg_carried":
+        {"textures":
+            ["textures/blocks/monster_egg/cobblestone_carried",
+            "textures/blocks/monster_egg/stone_brick_carried",
+            "textures/blocks/monster_egg/mossy_stone_brick_carried",
+            "textures/blocks/monster_egg/cracked_stone_brick_carried",
+            "textures/blocks/monster_egg/carved_stone_brick_carried",
+            "textures/blocks/monster_egg/stone_carried"]}
+    }
+}
